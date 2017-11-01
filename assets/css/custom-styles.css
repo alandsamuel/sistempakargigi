@@ -1,0 +1,235 @@
+
+
+/* ==========================================================================
+   Global custom styles starts here
+   ========================================================================== */
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff'),
+         url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-light-webfont.woff') format('woff'),
+         url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular-webfont.eot');
+    src: url('../fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fjallaone-regular-webfont.woff') format('woff'),
+         url('../fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('../fonts/oxygen-regular-webfont.eot');
+    src: url('../fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('../fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('../fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{ font-family: 'fjalla_oneregular'; background: #f0f0f0;}
+ h1, h2, h3, h4, h5, h6{
+     margin: 0;
+}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+a{transition: all 1s;}
+.btn:hover{transition:all 1s;}
+p{color: #869093; font-size: 14px; line-height: 26px;  padding-bottom: 15px; margin-bottom: 0;}
+
+.spacing-t{padding-top: 30px;}
+.spacing-b{padding-bottom: 30px;}
+.spacing-l{padding-left: 30px;}
+.spacing-r{padding-right: 30px;}
+
+.read-more{background: #f85c5e; padding:15px; border-radius: 0px 0px 5px 5px;}
+.read-more a{color: #fff; text-transform: uppercase; font-size: 13px; line-height: 24px;}
+.read-more a:hover{color: #383838; text-decoration: none;}
+.image-spacing{padding-bottom: 25px;}
+.no-border{border-bottom: none !important;}
+
+
+
+/* ==========================================================================
+   Menu custom styles starts here
+   ========================================================================== */
+	.header-wrapper{background: url(../img/body-bg.jpg) repeat; margin: 0 auto; overflow: hidden;}
+	.site-header{ background: #383838; margin-top: 60px;}
+	.menu{float: right; }
+	.menu .navbar .nav > .active > a{color: #f85c5e; font-size: 14px; box-shadow: none; text-shadow: none; background-image: none; background: #2a2a2a;}
+	.menu .navbar .nav > li{text-transform: uppercase; border-right: 1px solid #292929;}
+	.menu .navbar .nav > li > a {color: #fff; font-size: 14px; text-shadow: none; padding: 20px;}
+	.menu .navbar .nav > li > a:hover{background: #2a2a2a; color: #f85c5e;}
+	.site-name{margin-top: -10px; position: absolute;}
+	.site-name h1{background: #f85c5e; color: #fff; padding:20px ; border-radius: 5px; text-transform: uppercase;}
+	
+	.banner{text-align: center; margin-top: 55px;border-radius: 5px;
+			border: 20px solid #fff; border-bottom: none; margin-bottom: -4px;}
+	.banner .carousel{margin-bottom: 0;}
+	.banner .carousel-caption h1, h2{ opacity: 0;}
+	.banner .carousel-caption .btn{opacity: 0;}
+	.banner .carousel-inner:hover img{-webkit-filter: blur(10px); transition:all 5s; }
+    .banner .carousel-inner:hover h1{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover h2{ transition:all 1s; opacity: 0.9 !important;  }
+    .banner .carousel-inner:hover .btn{ transition:all 1s; opacity: 0.9 !important;  }
+	.banner .carousel-inner > .item > img{width: 100%;}
+	.banner .carousel-caption{background: none; top:40%;  }
+	.banner .carousel-caption h1{color: #fff; font-size: 64px; padding-bottom: 20px; text-transform: uppercase;font-weight: normal;}
+	.banner .carousel-caption h2{color: #fff; font-size: 22px; line-height: 30px; font-weight: normal;font-weight: normal; padding-bottom: 15px;}
+	.banner .carousel-caption [class^="fw-icon-"]{padding-bottom: 25px; font-size: 80px; color: #fff;}
+	.banner .carousel-caption .btn{border-radius: 5px; border: 3px solid #fff; background: none; color: #fff; font-size: 18px;
+								 box-shadow: none; text-shadow: none; padding: 10px;  line-height: 16px; text-transform: uppercase; letter-spacing: 1px;}
+	.banner .carousel-caption .btn:hover{background: none; color: #383838; border: 3px solid #383838;}
+	.banner .carousel-control {right:-10px; width: 35px; border-radius: 5px; top:50%; font-size: 20px; color: #f1c578; background: #fff; line-height: 40px; opacity: 1.0; border: none;}
+	.banner .carousel-control.left{left:-10px; color: #a74741;}
+	.banner .carousel-control:hover{background: #fff; color: #383838;}
+
+	.mini-menu{display: none;}
+    .mini-menu .selectnav{display: none; width: 100%;background: #3f4b51;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
+    .selectnav select{appearance: none; border:none !important;}
+    .mini-menu label {position:relative; width: 100%;}
+    .mini-menu label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#fff;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:14px; top:14px;
+    padding:0 0 2px;
+
+    position:absolute;
+    pointer-events:none;
+    }
+    .mini-menu label:before {
+    content:'';
+    right:6px; top:10px;
+    width: 25px; height: 25px;
+    background:#3f4b51;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+    }
+
+
+
+/* ==========================================================================
+   General custom styles starts here
+   ========================================================================== */
+	.featured-blocks{background: #fff; border-radius: 0 0 5px 5px; margin-bottom: 60px; }
+	.v-divider{background: url(../img/v-shadow.png)no-repeat right 0;}
+	.h-divider{background: url(../img/h-shadow.png)no-repeat center; }
+	.featured-blocks .block{text-align: center; padding-top: 25px; padding-bottom: 35px;}
+	.featured-blocks .block h1{color: #f85c5e; font-size: 17px; line-height: 24px; text-transform: uppercase; padding-top: 15px; font-weight: normal;}
+	.featured-blocks .block [class^="fw-icon-"] {font-size: 65px; color: #747474;}
+	.featured-blocks .block [class^="fw-icon-"]:hover{ color: #f85c5e;}
+	.featured-blocks .block p{color: #979797; font-size: 13px; line-height: 22px; font-family: 'oxygenregular'; text-decoration: underline;}
+	.featured-blocks .block .block-title{}
+	.featured-blocks .block .block-content{}
+
+	.general-posts{overflow: hidden; margin-bottom: 25px;}
+	.user-info{padding:25px 15px 0 15px; border-radius: 5px 5px 0 0; background: #fff;}
+	.user-info img{width: 100%;}
+	.user-info h1{color: #747474; font-size: 17px; line-height: 24px; padding-bottom: 25px; text-transform: uppercase; font-weight: normal;}
+	.user-info p{color: #979797; font-size: 13px; line-height: 22px;font-family: 'oxygenregular';}
+
+
+/* ==========================================================================
+   Sidebar custom styles starts here
+   ========================================================================== */
+	.sidebar{padding: 20px; padding-top: 25px; background: #fff; border-radius: 5px; overflow: hidden; margin-bottom: 25px;}
+	.sidebar h1{color: #747474; font-size: 17px; line-height: 24px; text-transform: uppercase; font-weight: normal;}
+
+	.sidebar .custom-input input{width: 75%;}
+	.sidebar .custom-input .btn{width: 25%;}
+	.sidebar .search-form{padding: 15px 0; margin-bottom: 0;}
+	.sidebar .search-form input{ border-right: 0; background: #f7f7f7; color: #b5bcbe; 
+								font-family: 'open_sansregular'; padding: 7px; line-height: 15px; 
+								padding-left: 10px; padding-right: 22px; border: none;}
+	.sidebar .search-form .input-append .btn{border-radius: 0;  background-image: none !important;
+											 background: #f7f7f7; padding: 4px 0;
+											padding-right: 8px; border-radius: 0 5px 5px 0;  border: none;}
+	.sidebar .search-form [class^="fw-icon-"]{color: #f85c5e; font-size: 19px; margin-left: 4px;}
+	.sidebar .input-append{margin-top: 10px;}
+	.sidebar input{border: none; background: #eee; box-shadow: none;}
+	.sidebar  [class^="fw-icon-"]{color: #f85c5e;}
+	.sidebar .input-append .add-on{border:none; padding: 5px;}
+
+
+	.sidebar-links{}
+	.sidebar ul{margin: 0; margin-top: 15px;}
+	.sidebar ul li{border-bottom: 1px solid #f0f0f0; padding-bottom: 8px; padding-top: 8px; padding-left: 15px; list-style: none; background: url(../img/list-arrow.png) no-repeat left 14px;}
+	.sidebar ul li a{color: #979797; font-size: 13px; line-height: px;font-family: 'oxygenregular';}
+	.sidebar ul li a:hover{color: #fb9d9e; text-decoration: none;}
+	.sidebar-posts{padding: 20px 0;  border-bottom: 1px solid #ebede8; overflow: hidden;}
+	.sidebar-posts h1{font-size: 13px; line-height: 22px; color: #f85c5e; text-transform: uppercase;}
+	.sidebar-posts [class^="fw-icon-"]{width: 24px; height: 27px; padding: 15px; margin-right: 15px; float: left; border:3px solid #f0f0f0; border-radius: 5px; font-size: 27px; color: #747474;}
+	.sidebar-posts p{color: #979797; font-size: 13px; line-height: 22px;font-family: 'oxygenregular'; text-decoration: underline; padding-bottom: 0;}
+
+
+
+/* ==========================================================================
+   Footer custom styles starts here
+   ========================================================================== */
+   	.footer-wrapper{margin-top: 40px; font-family: 'open_sanslight'; background: url(../img/body-bg.jpg) repeat; padding-top: 50px; padding-bottom: 65px; overflow: hidden;}
+	.footer-links{color: #a5a5a5; padding-bottom: 30px; border-bottom: 1px solid #484747;}
+	.footer-links .copy-rights{}
+	.footer-links .copy-rights span{color: #f85c5e; font-size: 13px; line-height: 20px; font-family: 'open_sansbold';}
+	.footer-links .copy-rights a{color: #a5a5a5;}
+	.footer-links .copy-rights a:hover{color: #fff; text-decoration: none;}
+	.site-footer{padding-top: 35px;}
+	.social{}
+	.social ul{margin: 0;}
+	.social ul li{list-style: none; display: inline-block; margin-right: 8px;}
+	.social ul li a [class^="fw-icon-"]{color: #656565;  font-size: 22px; width: 15px; 
+		height: 15px; padding: 3px; border-radius: 4px;}
+	.social ul li a [class^="fw-icon-"]:hover{color: #fff; text-decoration: none;}
+	.footer-menu{}
+	.footer-menu ul{margin: 0;}
+	.footer-menu ul li{list-style: none; display: inline-block;}
+	.footer-menu ul li a{color: #f85c5e; font-size: 13px; line-height: 20px; font-family: 'open_sansbold';}
+	.footer-menu ul li a:hover{text-decoration: none; color: #fff;}
+
+/* ==========================================================================
+   Responsive Tweaks starts here
+   ========================================================================== */
+  .navbar .btn-navbar{background: #f85c5e; color: #fff; margin-top: 20px; margin-bottom: 3px; float: none !important;
+  						 border: none; margin-left: 0; margin-right: 0;}
+  .navbar .btn-navbar:hover{background: #2a2a2a; color: #f85c5e; border: none;}
+
+

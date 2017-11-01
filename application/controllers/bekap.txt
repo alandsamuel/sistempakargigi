@@ -1,0 +1,197 @@
+
+
+public function pulpitis($d)
+    {
+        $p = 2;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+            
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function periodontis($d)
+    {
+        $p = 3;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function gingivitis($d)
+    {
+        $p = 4;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function abses($d)
+    {
+        $p = 5;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function kanker($d)
+    {
+        $p = 6;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function calculus($d)
+    {
+        $p = 7;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
+    
+    public function stomatitis($d)
+    {
+        $p = 8;
+        $query = $this->Mproses->cari($d,$p)->result();
+        if(count($query)>1){
+        $cf=NULL;
+        $x = 0;
+        foreach($query as $cf){
+            $x++;
+            $cfn = $cf->cf_pakar;
+            if($x=1){
+            $cfo = $cfn;
+            } else if ($x=2){
+                $cf = $cfo + ($cfn * (1-$cfo));
+            } else {
+                $cf = $cfn + ($cf * (1-$cfn));
+            }
+        }
+        
+        $hasil = $cf;
+        
+        } else {
+            $hasil = 0;
+        }
+        
+        return $hasil;
+    }
